@@ -12,44 +12,44 @@ The repository is organized to ensure transparency, portability, and computation
 
 paper-food-supply/
 
-  code/
-    1_main.R
-    2_clustering.R
-    3_granger_causality.do
+- code/
+    - 1_main.R
+    - 2_clustering.R
+    - 3_granger_causality.do
 
-  data/
-    raw/
-    FAOSTAT_world.csv
-    annual_global_tempanom.xlsx
-    controls_USDA.csv
+- data/
+    - raw/
+      - FAOSTAT_world.csv
+      - annual_global_tempanom.xlsx
+      - controls_USDA.csv
 
-  processed/
-    initial_panel.csv
-    data_filtered.csv
-    for_granger_causality.csv
+- processed/
+    - initial_panel.csv
+    - data_filtered.csv
+    - for_granger_causality.csv
 
-  climate/
-    temperature/
-      wide_temp_cropland.xlsx
-      wide_temp_unweighted.xlsx
-    precipitation/
-      wide_pre_cropland.xlsx
-      wide_pre_unweighted.xlsx
-    SPEI/
-      wide_drought_cropland.xlsx
-      wide_drought_unweighted.xlsx
-      wide_flood_cropland.xlsx
-      wide_flood_unweighted.xlsx
+- climate/
+    - temperature/
+      - wide_temp_cropland.xlsx
+      - wide_temp_unweighted.xlsx
+    - precipitation/
+      - wide_pre_cropland.xlsx
+      - wide_pre_unweighted.xlsx
+    - SPEI/
+      - wide_drought_cropland.xlsx
+      - wide_drought_unweighted.xlsx
+      - wide_flood_cropland.xlsx
+      - wide_flood_unweighted.xlsx
 
-  instruments/
-      ERF.xlsx
-      world-administrative-boundaries.geojson
+- instruments/
+    - ERF.xlsx
+    - world-administrative-boundaries.geojson
 
-  output/
-    figures/
-    tables/
+- output/
+    - figures/
+    - tables/
 
-  README.md
+- README.md
 
 ---
 
